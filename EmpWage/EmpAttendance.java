@@ -4,22 +4,24 @@ public class EmpAttendance {
     public static void main(String[] args) {
         System.out.println("Welcome to Employee Wage Computation Program");
         int Emp_Part_Time = 1;
+        int Emp_Full_Time = 2;
         int Emp_Rate_Hour = 20;
         int empHrs = 0;
         int empWage = 0;
-        double empCheck = Math.floor(Math.random() *10)%2;      //RANDOM Method for EMP Present or Absent
+        double empCheck = Math.floor(Math.random() *10)%2;
         System.out.println("Attendance of emp: " +empCheck);
 
-        if (empCheck == Emp_Part_Time) {                       //Check Presence & Emp Hours
-            empHrs = 8;
-
+        if (empCheck == Emp_Part_Time) {
+            empHrs=4;
+        } else if (empCheck == Emp_Full_Time) {
+            empHrs=8;
         } else {
             empHrs = 0;
         }
         empWage = empHrs * Emp_Rate_Hour;                      // Calculate EMP Wage
         System.out.println("Employee Wage : " +empWage);
-        }
-        }
+    }
+}
 
 
 
