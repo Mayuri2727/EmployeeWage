@@ -1,1 +1,1 @@
-   Welcome to Employee Wage Computatio Program
+   Welcome to Employee Wage Computation Program
