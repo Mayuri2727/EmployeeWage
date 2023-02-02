@@ -6,5 +6,6 @@ public class Snake {
         int player = 0;
         int singlePlayer=0;
         System.out.println("Start position is: " + player);
+
     }
 }
