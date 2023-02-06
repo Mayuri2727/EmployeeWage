@@ -31,8 +31,8 @@ public class EmpAttendance {
     }
 
     public static void main(String[] args) {
-        computeEmpWage("Dell", 20, 2, 10);
-        computeEmpWage("HP", 10, 4, 20);
+        computeEmpWage("Dell", 15, 7, 10);
+        computeEmpWage("HP", 20, 6, 20);
     }
 }
 
